@@ -1,0 +1,55 @@
+h1 {
+    background-color: 
+
+        border: 10px;
+    border-style: dashed;
+    border-bottom-color: black ;
+    border-color: hotpink;
+    border-radius: 10px;
+    /* the code above this comment gives that pink dotted border around ultra instinct shaggy*/
+}
+{
+}
+body {
+    color: red;
+    /* ^ that code above us gives us the text color*/
+
+    background-color: black;
+
+    /* ^ that code above us gives us the background color*/
+
+}
+b {
+    background-color: cornflowerblue;
+
+    /* ^ this code allowed us to highlight some text*/
+
+    color: white;
+
+    /* ^ this code is why the highlighted text is white*/ 
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Charm|Indie+Flower|Major+Mono+Display|ZCOOL+KuaiLe|ZCOOL+QingKe+HuangYou');
+/*
+font-family: 'ZCOOL KuaiLe', cursive;
+font-family: 'Charm', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-family: 'Indie Flower', cursive;
+
+these are all of our fonts for the text
+
+*/
+
+h1 {
+    font-family: 'Charm', cursive;
+}
+body {font-family: 'ZCOOL KuaiLe', cursive;}
+
+b {font-family: 'Major Mono Display', cursive;}
+
+s {font-family: 'Indie FLower', cursive;}
+
+

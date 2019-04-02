@@ -1,0 +1,650 @@
+body{ /*the background of the website*/
+
+    background-image: url("https://i.redd.it/tmti28etfj7y.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+/*start of keyframes*/
+/* The keyframes allow the images to move in certain ways*/
+
+@keyframes kirmit {
+    1%   {width: 40%;}
+    25% {transform: translateY(100vh);}
+    90%  {transform: translate(-50vh);}
+    100% {transform: translate( 60vh);}
+    1%   {width: 40%;}
+    100%   {width: 30%;}
+}
+
+
+@keyframes meme1 {
+    1%   {width: 1%;}
+    25%  {transform: translateY(100vh);}
+    25% {transform: translateY(100hw);}
+    25% {transform: translateY(100vh);}
+    50%  {transform: translate(50hw);}
+    90%  {transform: translate(-50vh);}
+    100% {transform: translate(60hw,60vh);}
+    100%   {width: 30%;}
+}
+
+img {
+    width: 100%;
+}
+@keyframes meme2 {
+    1%   {width: 1%;}
+    25%  {transform: translateY(0vh);}
+    25% {transform: translateY(90hw);}
+    25% {transform: translateY(100vh);}
+    50%  {transform: translate(50hw);}
+    90%  {transform: translate(50vh);}
+    100% {transform: translate(60hw,60vh);}
+    100%   {width: 30%;}
+}
+/*end of keyframes*/
+div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    animation-name: meme1;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    width: 0px;
+
+    animation-delay: 10s;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+*/
+
+#meme1 {
+    top: -60vh; /*-60 to 0*/
+    left: 10vw; /*10 to 80 this will let me know how low and high i can make the values for the spawn points for the memes*/ 
+}
+
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+*/
+
+
+#meme2 {
+    animation: meme2; 
+    top: -40vh;
+    left: 60vw;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+
+
+#meme3 {
+    top: -47vh;
+    left: 20vw;
+    animation-delay: 5s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+
+#meme4 {
+    animation: meme2; 
+    top: -20pvh;
+    left: 80vw;
+    animation-iteration-count: infinite;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+
+#meme5 {
+    top: 0vh;
+    left: 30vw;
+    animation-duration: -6s;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+
+#meme6 {
+    animation: meme2;
+    top: -20vh;
+    left: 50vw;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+
+#meme7 {
+
+    top: -31pvh;
+    left: 40vw;
+    animation-duration: 10s;
+
+
+}
+#meme8 {
+    animation: meme2;
+    top: -45vh;
+    left: 30vw;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme9 {
+
+    top: -40vh;
+    left: 69vw;
+    animation-duration: 10s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme10 {
+    animation: meme2;
+    top: -49vh;
+    left: 20vw;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    animation-name: kirmit;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    width: 0px;
+
+    animation-delay: 10s;
+
+
+} 
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme11 {
+
+    top: -10vh;
+    left: 80vw;
+    animation-duration: 2s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme12  {
+    animation: meme2;
+    top: -20vh;
+    left: 68vw;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme13 {
+
+    top: -44vh;
+    left: 54vw;
+    animation-duration: 10s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme14 {
+    animation: meme2;
+    top: -34vh;
+    left: 36vw;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme15 {
+
+    top: -53vh;
+    left: 47vw;
+    animation-duration: 10s;
+
+}
+#meme16 {
+    animation: meme2;
+    top: -24vh;
+    left: 23vw;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme17 {
+
+    top: -23vh;
+    left: 72vw;
+    animation-duration: 2s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme18 {
+    animation: meme2;
+    top: 0vh;
+    left: 20vw;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme19 {
+
+    top: 0vh;
+    left: 10vw;
+    animation-duration: 10s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme20 {
+    animation: meme2;
+    top: -34vh;
+    left: 47vw;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme21 {
+
+    top: -51vh;
+    left: 68vh;
+    animation-duration: -10s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme22 {
+    animation: meme2;
+    top: -39vh;
+    left: 79vw;
+    animation-duration: -10s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme23 {
+
+    top: -32vh;
+    left: 19vw;
+    animation-duration: 2s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme24 {
+    animation: meme2;
+    top: -43vh;
+    left: 32vw;
+    animation-duration: -10s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme25 {
+
+    top: -12vh;
+    left: 54vw;
+    animation-duration: -10s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme26 {
+    animation: meme2;
+    top: -54vh;
+    left: 40vw;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme27 {
+
+    top: -23vh;
+    left: 15vh;
+    animation-duration: -10s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme28 {
+    animation: meme2;
+    top: -10vh;
+    left: 80vw;
+    animation-duration: -10s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme29 {
+
+    top: -60vh;
+    left: 45vw;
+    animation-duration: 2s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme30 {
+    animation: meme2;
+    top: -26vh;
+    left: 65vw;
+    animation-duration: -10s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+#meme31 {
+    top: -32vh;
+    left: 53vw;
+    animation-duration: 2s;
+
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/
+
+
+#text {
+    z-index: -1;
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    width: 30vw;
+
+    color: yellow;
+
+
+    animation: meme2; 
+    top: -40vh;
+    left: 60vw;
+    animation-delay: 0s;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+/* 
+Each meme has many similar properties, although we want to change starting positions, animation start times and animation speeds.
+
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+We do this over and over
+*/

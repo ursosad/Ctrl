@@ -1,0 +1,78 @@
+/* Our teacher wrote most of this code for his website, PhillyComputerScience.com*/
+/*this effects the position*/
+.menu {
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    z-index: 420; /*Blazin*/
+}
+/*this effects how it looks/acts*/
+.menu: hover {
+    opacity: 1;
+    transition-duration: .5s;
+    background-color: #cb1;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f50;
+    transition-duration: .5s;
+}
+
+.menu li {
+    float: left;
+    transition-duration: .5s;
+}
+
+.menu li a, .dropbtn {
+    display: inline-block;
+    color: green;
+    text-align: center;
+    padding: 6px 15px;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+.menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: #b09;
+    transition-duration: .5s;
+}
+
+.menu li.dropdown {
+    display: inline-block;
+    transition-duration: .5s;
+}
+
+.menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ec1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition-duration: .5s;
+}
+
+.menu .dropdown-content a {
+    color: purple;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition-duration: .5s;
+}
+
+.menu .dropdown-content a:hover {
+    background-color: #fb3;
+    display: block;
+    transition-duration: .5s;
+}
+
+.menu .dropdown:hover .dropdown-content {
+    display: block;
+    transition-duration: .5s;
+}

@@ -1,0 +1,111 @@
+/*this makes the wierd color scheme background*/
+body {
+    overflow: hidden;
+    background-image: linear-gradient(blue, pink);
+    background-attachment: fixed;
+    overflow: hidden
+}
+
+div {
+    position: absolute;
+}
+
+/*this allows you to change the sides of the cude and the color*/
+.top {
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 50vh;
+    z-index: 10;
+    opacity: 0;
+}
+
+.left {
+    top: 20vh;
+    left: 0vw;
+    width: 25vw;
+    height: 60vh;
+    z-index: 10;
+    opacity: 0;
+}
+
+.centerleft {
+    top: 20vh;
+    left: 25vw;
+    width: 25vw;
+    height: 60vh;
+    z-index: 10;
+    opacity: 0;
+}
+
+.centerright {
+    top: 20vh;
+    left: 50vw;
+    width: 25vw;
+    height: 60vh;
+    z-index: 10;
+    opacity: 0;
+}
+
+
+.right {
+    top: 20vh;
+    left: 75vw;
+    width: 25vw;
+    height: 80vh;
+    z-index: 10;
+    opacity: 0;
+}
+
+.bottom {
+    top: 80vh;
+    left: 0vw;
+    width: 100vw;
+    height: 20vh;
+    z-index: 10;
+    opacity: 0;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    opacity: 100%;
+}
+
+.cube {
+    width: 50vh;
+    height: 50vh;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: translateZ(-100px);
+    transition: transform 1s;
+    z-index: 0;
+}
+/*this effects the position and side of the cude that becomes seen*/
+.cube.show-centerleft  { transform: translateX( 7vw) translateY( -10vh) rotateY(   0deg); }
+.cube.show-right       { transform: translateX( 75vw) translateY( -10vh) rotateY( -90deg); }
+.cube.show-centerright { transform: translateX( 67vw) translateY( -10vh) rotateY(-180deg); }
+.cube.show-left        { transform: translateX( -1vw) translateY( -10vh) rotateY(  90deg); }
+.cube.show-top         { transform: translateX( 17vw) translateY( -15vh) rotateX( -90deg); }
+.cube.show-bottom      { transform: translateX( 18vw) translateY( 60vh) rotateX(  90deg); }
+/*effects the size of the cube*/
+.cube__face {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+    border: 0px solid white;
+    line-height: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+/*this effects the sides of the cube reletive to it. So some sides could be off the cube*/
+.cube__face--front  { transform: rotateY(  0deg) translateZ( 100px); }
+.cube__face--right  { transform: rotateY( 90deg) translateZ( 100px); }
+.cube__face--back   { transform: rotateY(180deg) translateZ( 100px); }
+.cube__face--left   { transform: rotateY(-90deg) translateZ( 100px); }
+.cube__face--top    { transform: rotateX( 90deg) translateZ( 100px); }
+.cube__face--bottom { transform: rotateX(-90deg) translateZ( 100px); } 

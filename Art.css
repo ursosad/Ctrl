@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/*This control the text in the background*/
+.content_text {
+    z-index: -1;
+    opacity: 0;
+    position: absolute;
+    top: 0vh;
+    width: 100vw;
+    height: 100vh;
+    line-height: 25vh;
+    transform: scale(1.0);
+}
+
+/*This hover effect makes the text in the background appear/fade*/
+.content_text: hover {
+    transform: scale(1.0);
+    opacity: 1;
+}
+
+/*This container makes the "boxes" look like an array*/
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 100%;
+}
+
+/*The hover effect for the container makes the boxes pop out a little when hovered over*/
+.flex-container:hover {
+    transform: rotate(0deg);
+}
+
+/*The body is just mainly for the text to appear in the background*/
+body {
+    overflow: hidden;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 5vh;
+}
+
+/*The div controls the size of the boxes and how long the effect duration lasts*/
+div {
+    overflow: hidden;
+    width: 5vw;
+    height: 5vw;
+    opacity: 0;
+    position: static;
+    transition-duration: 10s;
+    border-width: thin;
+    z-index: 1;
+}
+
+/*The hover on the div is what allows the trail effect to happen*/
+div:hover {
+    opacity: 1;
+    transition-duration: .1s;
+    transform: scale(1.3);
+}
