@@ -1,0 +1,56 @@
+:root {
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+* {
+    font: inherit;
+}
+
+#meme-canvas {
+    width: 300px;
+}
+
+
+/* the stuff below is what i added -- did it to make the page look nicer >:) it gives it more color :D .*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    background: #74d795;
+    margin-bottom: 40px;
+    padding: 10px 0;
+}
+
+.header img {
+    width: 90px;
+    margin: -10px 10px 0 0;
+}
+
+.header h1 {
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.tool h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.tool input {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 5px solid #74d795;
+    box-shadow: none;
+}
+
+/* ^ lines 48-53 that code above us is the green line under demo text */
+

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+/**This is just for looks**/
+body {
+    overflow: hidden;
+    background-color: black;
+}
+
+/**The div controls the designs, like the container style and some colors**/
+div {
+    position: absolute;
+    font-family: Quicksand;
+    font-size: 2.5vh;
+    width: 100%;
+    background-color: deepskyblue;
+    border-style: groove;
+    border-color: black;
+}
+
+/*This is for making sure the images are full size*/
+img {
+    top: 0vh;
+    width: 100%;
+    height: 100%;
+}
+
+/*This controls the size of the containers*/
+.container {
+    position: absolute;
+    width: 33vw;
+    height: 100vh;
+}
+
+/*This contains the Alexandria containers*/
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+/*The hover effect allows the Alexandria pictures to appear when hovering over the Trump pictures*/
+.container:hover .overlay {
+    opacity: 1;
+}
+
+/**This contains our information**/
+.overlay_text {
+    position: absolute;
+    top: 0vw;
+    opacity: 0;
+}
+
+/*This allows the text of our information to appear when clicked and held*/
+.container:active .overlay_text {
+    opacity: 1;
+    text-align: center;
+}
+
+/*This contains our pictures*/
+.uverlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+/*This allows our pictures to appear when clicked and held*/
+.container:active .uverlay {
+    opacity: 1;
+}
+
+/*These just decide the position of our containers*/
+.al {
+    left: 0vw;
+}
+
+.jerome {
+    left: 33vw;
+}
+
+.kenny {
+    left: 66vw;
+}
